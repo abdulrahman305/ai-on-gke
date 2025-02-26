@@ -1,4 +1,4 @@
-# Copyright 2024 Google LLC
+# Copyright 2023 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,11 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM python:3.13.1
-
-ADD ./ /workspace/frontend
-WORKDIR /workspace/frontend
-
-RUN pip install -r requirements.txt
-
-CMD ["python", "main.py"]
+# terraform {
+#   backend "gcs" {
+#     bucket = "<BUCKET_NAME>"
+#     prefix = "terraform/state/temp"
+#   }
+# }
