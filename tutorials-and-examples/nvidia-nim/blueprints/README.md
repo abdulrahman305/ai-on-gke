@@ -1,10 +1,4 @@
-### NVIDIA NIM Blueprints on GKE
+# NVIDIA NIM Blueprints on GKE
 
-Here you will find the NVIDIA NIM Blueprints that can be provisioned to run on GKE. These are good for proof of concepts.
-
-1. [Generative Virtual Screening for Drug Discovery](https://build.nvidia.com/nvidia/generative-virtual-screening-for-drug-discovery) uses 3 NIMs.
-   - AlphaFold2
-   - MolMIM
-   - DiffDock
-
-   You can follow the detailed steps [here](./drugdiscovery/README.md).
+>[!WARNING]
+>The files for the NIM Blueprints on GKE have been moved to the [AI-on-GKE/tutorials-and-examples](https://github.com/ai-on-gke/nvidia-ai-solutions/blob/main/nim/blueprints) repository. For more information, please refer to the [NVIDIA NIM on GKE tutorial](https://gke-ai-labs.dev/docs/blueprints/nims-on-gke/).
